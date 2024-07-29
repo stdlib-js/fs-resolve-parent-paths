@@ -35,38 +35,33 @@ limitations under the License.
 
 > Resolve paths from a set of paths by walking parent directories.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/fs-resolve-parent-paths
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-resolveParentPaths = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var resolveParentPaths = require( 'path/to/vendor/umd/fs-resolve-parent-paths/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.resolveParentPaths;
-})();
-</script>
+var resolveParentPaths = require( '@stdlib/fs-resolve-parent-paths' );
 ```
 
 <a name="resolve-parent-paths"></a>
@@ -167,13 +162,8 @@ The function accepts the same `options` as [`resolveParentPaths()`](#resolve-par
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var resolveParentPaths = require( '@stdlib/fs-resolve-parent-paths' );
 
 var opts = {
     'dir': __dirname
@@ -202,18 +192,66 @@ function onPaths( error, paths ) {
     }
     console.log( paths );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/fs-resolve-parent-paths-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: resolve-parent-paths [options] <path> [<path>...]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+         --dir dir             Base search directory.
+         --mode mode           Mode of operation.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ resolve-parent-paths package.json package-lock.json
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -262,8 +300,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/fs-resolve-parent-paths.svg
 [npm-url]: https://npmjs.org/package/@stdlib/fs-resolve-parent-paths
 
-[test-image]: https://github.com/stdlib-js/fs-resolve-parent-paths/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/fs-resolve-parent-paths/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/fs-resolve-parent-paths/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/fs-resolve-parent-paths/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/fs-resolve-parent-paths/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/fs-resolve-parent-paths?branch=main
