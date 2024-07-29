@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@esm/index.mjs';
+import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@esm/index.mjs';
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@v0.1.0-esm/index.mjs';
 ```
 
 <a name="resolve-parent-paths"></a>
@@ -155,7 +155,7 @@ The function accepts the same `options` as [`resolveParentPaths()`](#resolve-par
 <body>
 <script type="module">
 
-import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@esm/index.mjs';
+import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@v0.1.0-esm/index.mjs';
 
 var opts = {
     'dir': __dirname
