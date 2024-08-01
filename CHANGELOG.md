@@ -2,19 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v0.1.0">
+<section class="release" id="unreleased">
 
-## 0.1.0 (2024-07-29)
-
-<section class="features">
-
-### Features
-
--   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - add `fs/resolve-parent-paths`
-
-</section>
-
-<!-- /.features -->
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -22,7 +12,7 @@
 
 <details>
 
--   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - **feat:** add `fs/resolve-parent-paths` _(by Snehil Shah, Athan Reines)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -34,14 +24,23 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   Athan Reines
--   Snehil Shah
 
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2024-07-29)
+
+No changes reported for this release.
 
 </section>
 
