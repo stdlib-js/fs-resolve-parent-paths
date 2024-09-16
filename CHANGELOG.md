@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-01)
+## Unreleased (2024-09-16)
 
 <section class="commits">
 
@@ -12,7 +12,7 @@
 
 <details>
 
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`8499db6`](https://github.com/stdlib-js/stdlib/commit/8499db6d48ac9f25adef2b45eda0f8b18cee763a) - **docs:** update `resolve-parent-paths` examples [(#2908)](https://github.com/stdlib-js/stdlib/pull/2908) _(by Snehil Shah, Athan Reines)_
 
 </details>
 
@@ -24,9 +24,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Snehil Shah
 
 </section>
 
@@ -40,7 +41,42 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2024-07-29)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - add `fs/resolve-parent-paths`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f5f09ad`](https://github.com/stdlib-js/stdlib/commit/f5f09ad4db2e3ef0802c85ebada220cca6ebd208) - **feat:** add `fs/resolve-parent-paths` _(by Snehil Shah, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Snehil Shah
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
