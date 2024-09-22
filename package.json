@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
-    "@stdlib/array-base-filled": "^0.2.2",
+    "@stdlib/array-base-nulls": "github:stdlib-js/array-base-nulls#main",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-array-like-object": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",

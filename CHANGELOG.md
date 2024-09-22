@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-16)
+## Unreleased (2024-09-22)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`4a6e485`](https://github.com/stdlib-js/stdlib/commit/4a6e4853d714b17a494130cde8c5def60cb5d94a) - **refactor:** use dedicated array utility _(by Athan Reines)_
 -   [`8499db6`](https://github.com/stdlib-js/stdlib/commit/8499db6d48ac9f25adef2b45eda0f8b18cee763a) - **docs:** update `resolve-parent-paths` examples [(#2908)](https://github.com/stdlib-js/stdlib/pull/2908) _(by Snehil Shah, Athan Reines)_
 
 </details>
