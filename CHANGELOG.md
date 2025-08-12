@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-15)
+## Unreleased (2025-08-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`4a6e485`](https://github.com/stdlib-js/stdlib/commit/4a6e4853d714b17a494130cde8c5def60cb5d94a) - **refactor:** use dedicated array utility _(by Athan Reines)_
 -   [`8499db6`](https://github.com/stdlib-js/stdlib/commit/8499db6d48ac9f25adef2b45eda0f8b18cee763a) - **docs:** update `resolve-parent-paths` examples [(#2908)](https://github.com/stdlib-js/stdlib/pull/2908) _(by Snehil Shah, Athan Reines)_
