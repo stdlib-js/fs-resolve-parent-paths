@@ -35,20 +35,33 @@ limitations under the License.
 
 > Resolve paths from a set of paths by walking parent directories.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/fs-resolve-parent-paths
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@deno/mod.js';
+var resolveParentPaths = require( '@stdlib/fs-resolve-parent-paths' );
 ```
 
 <a name="resolve-parent-paths"></a>
@@ -137,7 +150,7 @@ The function accepts the same `options` as [`resolveParentPaths()`](#resolve-par
 ## Notes
 
 -   In `some` mode, the return order of asynchronously resolved paths is not guaranteed.
--   This implementation is **not** similar in functionality to core [`path.resolve`][node-core-path-resolve]. The latter performs string manipulation to generate a full path. This implementation walks parent directories to perform a **search**, thereby touching the file system. Accordingly, this implementation resolves _real_ absolute file paths and is intended for use when a target's location in a parent directory is unknown relative to a child directory; e.g., when wanting to find a package root from deep within a package directory. 
+-   This implementation is **not** similar in functionality to core [`path.resolve`][node-core-path-resolve]. The latter performs string manipulation to generate a full path. This implementation walks parent directories to perform a **search**, thereby touching the file system. Accordingly, this implementation resolves _real_ absolute file paths and is intended for use when a target's location in a parent directory is unknown relative to a child directory; e.g., when wanting to find a package root from deep within a package directory.
 
 </section>
 
@@ -150,7 +163,7 @@ The function accepts the same `options` as [`resolveParentPaths()`](#resolve-par
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@deno/mod.js';
+var resolveParentPaths = require( '@stdlib/fs-resolve-parent-paths' );
 
 var opts = {
     'dir': __dirname
@@ -185,7 +198,60 @@ function onPaths( error, paths ) {
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/fs-resolve-parent-paths-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: resolve-parent-paths [options] <path> [<path>...]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+         --dir dir             Base search directory.
+         --mode mode           Mode of operation.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ resolve-parent-paths package.json package-lock.json
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -204,7 +270,7 @@ function onPaths( error, paths ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -221,7 +287,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
