@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2026-01-31)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`97f0e11`](https://github.com/stdlib-js/stdlib/commit/97f0e11fad5ac045777328c45d2ff595f568a5e0) - **chore:** use canonical format for JSDoc union types _(by Philipp Burckhardt)_
+-   [`c894b66`](https://github.com/stdlib-js/stdlib/commit/c894b664661bfb87286304b24dd5a1758ae482b7) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`4a6e485`](https://github.com/stdlib-js/stdlib/commit/4a6e4853d714b17a494130cde8c5def60cb5d94a) - **refactor:** use dedicated array utility _(by Athan Reines)_
