@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-assert-contains": "^0.2.3",
     "@stdlib/array-base-nulls": "^0.1.1",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-array-like-object": "^0.2.3",
@@ -57,7 +57,7 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-contains": "^0.3.0",
+    "@stdlib/assert-contains": "^0.3.1",
     "@stdlib/assert-is-absolute-path": "^0.2.3",
     "@stdlib/assert-is-array": "^0.2.3",
     "@stdlib/assert-is-browser": "^0.2.3",
