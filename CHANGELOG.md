@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-07-07)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`f54e568`](https://github.com/stdlib-js/stdlib/commit/f54e5686a93b352fac88b5e1c2c372ab1daa81b6) - **docs:** update examples and add section headings [(#13198)](https://github.com/stdlib-js/stdlib/pull/13198) _(by Philipp Burckhardt, Athan Reines)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1228698`](https://github.com/stdlib-js/stdlib/commit/122869845328a51c626f11d299f1ae3c699c5c71) - **bench:** refactor to use string interpolation in `fs` [(#11615)](https://github.com/stdlib-js/stdlib/pull/11615) _(by Karan Anand)_
 
