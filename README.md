@@ -35,33 +35,20 @@ limitations under the License.
 
 > Resolve paths from a set of paths by walking parent directories.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/fs-resolve-parent-paths
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var resolveParentPaths = require( '@stdlib/fs-resolve-parent-paths' );
+import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { sync } from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@esm/index.mjs';
 ```
 
 <a name="resolve-parent-paths"></a>
@@ -162,8 +149,13 @@ The function accepts the same `options` as [`resolveParentPaths()`](#resolve-par
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var resolveParentPaths = require( '@stdlib/fs-resolve-parent-paths' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import resolveParentPaths from 'https://cdn.jsdelivr.net/gh/stdlib-js/fs-resolve-parent-paths@esm/index.mjs';
 
 var opts = {
     'dir': __dirname
@@ -192,66 +184,17 @@ function onPaths( error, paths ) {
     }
     console.log( paths );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use as a general utility, install the CLI package globally
-
-```bash
-npm install -g @stdlib/fs-resolve-parent-paths-cli
-```
-
-</section>
-
-<!-- CLI usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: resolve-parent-paths [options] <path> [<path>...]
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-         --dir dir             Base search directory.
-         --mode mode           Mode of operation.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ resolve-parent-paths package.json package-lock.json
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -270,7 +213,7 @@ $ resolve-parent-paths package.json package-lock.json
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
